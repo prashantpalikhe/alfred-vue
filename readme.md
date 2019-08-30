@@ -2,20 +2,17 @@
 
 > Alfred workflow for Vue documentation
 
-
 ## Install
 
 ```
-$ npm install --global alfred-vue
+$ npm install --global alfred-vuejs
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
-
+_Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
 
 ## Usage
 
 In Alfred, type `vue`, <kbd>Enter</kbd>, and your query.
-
 
 ## License
 
