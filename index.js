@@ -8,7 +8,8 @@ const index = client.initIndex('vuejs');
 (async () => {
 	const { hits } = await index.search({
 		query: alfy.input,
-		hitsPerPage: 5
+		hitsPerPage: 5,
+		facetFilters: ['tags:en']
 	});
 
 	const output = hits.map(hit => {
